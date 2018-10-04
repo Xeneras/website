@@ -3,11 +3,39 @@
 <head>	
 <meta charset="utf-8">
 <title>HTML</title>
+<style>
+body{
+		margin: 40px;
+		padding: 40px;
+		background-color: #BE5;
+		border: 2px dashed #573;
+}
+h1, footer{
+		text-align: center;
+}
+p, pre{
+		margin-left: 15px;
+}
+.first{
+		background-color:#FF9;
+		border: 2px dotted #000;
+}
+.second{
+		background-color: #CF9;
+		border: 2px solid #880;
+}
+#first{
+		color: #373;
+}
+#second{
+		color: #040;
+}
+</style>
 </head>
 <body>
 		<h1>Block-Level Elements</h1>	
-	<h2>Text in a Preformatted Element</h2>
-	<pre>This             text
+	<h2 id="first">Text in a Preformatted Element</h2>
+	<pre class="first">This             text
 
         spans              several
    lines
@@ -18,7 +46,7 @@
 whitespace.
       </pre>
       <p>I see words that are in different lines with different spaces </p>
-      <h2> Text in a Performatted Element</h2>
+      <h2 id="second"> Text in a Performatted Element</h2>
       <p> This             text
 
         spans              several
@@ -29,6 +57,9 @@ whitespace.
 
 whitespace.
     </p>
+		<div class="second">
+Seen you eyes son show. Far two unaffected one alteration apartments celebrated but middletons interested. Described deficient applauded consisted my me do. Passed edward two talent effect seemed engage six. On ye great do child sorry lived. Proceed cottage far letters ashamed get clothes day. Stairs regret at if matter to. On as needed almost at basket remain. By improved sensible servants children striking in surprise. 
+		</div>
     <p> Here I see that the sentence is in proper form. There is a constant amount of spacing between the words</p>
 
 <footer style="text-align: center;">
