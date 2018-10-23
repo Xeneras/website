@@ -3,23 +3,112 @@
 <head>	
 <meta charset="utf-8">
 <title>Banshee</title>
+<style>
+body{
+		background:url("images/black1.jpg");
+		-moz-background-size:cover;
+		-webkit-background-size:cover;
+		-o-background-size:cover;
+		background-size: cover;
+		background-size: 1400px 800px;
+		background-repeat: no-repeat;
+		color: #FFF;
+} 
+h1{
+		text-align: center;
+		color: #FFF;
+}
+a{
+		color:#0F0;
+}
+a:hover{
+		color:#00F;
+}
+a:visited{
+		color:#FF0;
+}
+a:hover:visited{
+		color:#FFF;		
+}
+#table{
+		text-align:center;
+		border:5px solid #FFF;
+}
+.mini{
+		border:1px solid #F00;
+}
+.wrapper{
+		margin:10px;
+		display:grid;
+		grid-template-columns: 200px 500px 500px 125px;
+		grid-template-rows: 50px 300px 150px 150px;
+}
+.item1{
+		grid-column:1/5;
+		<!--border: 5px solid #0F0;-->
+		margin-top: -30px;
+}
+.item2{
+		grid-row:2/6;
+		line-height: 40px;
+  	<!--border: 5px solid #0F0;-->
+}
+.item3{
+		grid-column:2/3;
+		margin-top:100px;
+		<!--border: 5px solid #0F0;-->
+}
+.item4{
+		grid-column:3/5;
+		margin-top: 87px;
+		<!--border: 5px solid #0F0;-->
+}
+.item5{
+		grid-column:2/5;
+		<!--border: 5px solid #0F0;-->
+}
+.item6{
+		grid-column:2/5;
+		<!--border: 5px solid #0F0;-->
+}
+</style>
 </head>
 <body>
-<h2>Banshee</h2>
-<hr>
-<a href="index.html">Home Page</a> |&nbsp; <a href="aboutme.html"> About the author</a> |&nbsp;<a href="sources.html">Sources</a>|&nbsp;<a href="definitions.html">Definitions</a> 
-<hr>
-<img src="images/Banshee1.jpg" alt="Banshee">
-<br>
-<p>
-	A <i><b>banshee</b></i> is a female spirit in Irish mythology who heralds the death of a famliy member, usually by wailing, shrieking, or keening. Banshee's have long streaming hair and wears a grey cloak over a green dress, and her eyes are red from continual weeping.
-</p>
-<footer style="text-align: center;">
+  <div class="wrapper">
+		<header class="item1">
+				<h1>Banshee</h1>
+		</header>
+
+		<nav class="item2">
+				<b><I><strong><em><span style="line-height: 100px;">Navigation</span></em></strong></I></b><br>
+				<a href="index.html">Home Page</a> <br> 
+				<a href="aboutme.html"> About the author</a> <br> 
+				<a href="sources.html">Sources</a> <br> 
+				<a href="definitions.html">Definitions</a> 
+		</nav>
+		
+		<main class="item3">
+				<img src="images/ban2.jpg" alt="Banshee" height="400px" width="400px">
+		</main>
+		
+		<main class="item4">
+				<p>
+	A <i><b>Banshee</b></i> is a female spirit in Irish mythology who heralds the death of a famliy member, usually by wailing, shrieking, or keening. Banshee's have long streaming hair and wears a grey cloak over a green dress, and her eyes are red from continual weeping.
+				</p>
+		</main>
+		
+		<section class="item5">
+		</section>
+
+<footer style="text-align: right; margin-right:-100px; margin-top=-50px;">
 <a href="http://validator.w3.org/check/referer">
 <strong>Html</strong>Valid!!</a>
 </footer>
+</div>
 </body>
 </html>
+
+
 	
 
 
