@@ -24,5 +24,5 @@ while(isSunk==false){
     alert("You sank my battleship!")
   }
 }
-var stats = "You took" + guesses + "guesses to sink the battleship," + "which means you shooting accuracy was" + (3/guesses)
+var stats = "You took " + guesses + " guesses to sink the battleship, which means you shooting accuracy was " + (3/guesses)
 alert(stats);
