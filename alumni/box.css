@@ -58,6 +58,6 @@ a.effect-box:hover:after,
 a.effect-box:hover:before {
   opacity: 1;
 	-webkit-transform: scale(1);
-	transform: scale(1);
+	transform: scale(1.5);
 }
 
