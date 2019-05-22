@@ -1,4 +1,5 @@
 body {
+  background-color:#F5F5F9;
   display: grid;
   grid-template-columns: 10vw 88vw;
   grid-template-rows: 10vw 37vw 3vw;
@@ -6,7 +7,8 @@ body {
   margin: 0.3vw;
 }
 header {
-  background-color: gold;
+  font-family: 'Poppins',sans-serif;
+  background-color: #F3524F;
   background-image: url("ACPE.jpg");
   background-repeat: no-repeat;
   background-size: contain;
@@ -27,12 +29,12 @@ header > p {
   text-shadow: 1px 1px gray;
 }
 nav {
-  border: 2px solid lightgray;
-  background-color: white;
+  font-family: 'Poppins', sans-serif;
+  border: 2px solid #EDEEF1;
+  background-color: #EDEEF1;
   grid-area: 2 / 1 / 3 / 2;
   font-size:20px;
   text-align:justify;
-  padding-right:5%;
   
 }
 .navlinks:link, .navlinks:visited {
@@ -53,11 +55,13 @@ article {
   padding: 1%;
 }
 main {
-  border: 3px solid gray;
-  background-color: lightgray;
+  font-family: 'Poppins', sans-serif;
+  border: 2px solid #DEDFE2;
+  background-color: white;
   grid-area: 2 / 2 / 3 / 3;
 }
 footer {
+    font-family: 'Poppins',sans-serif;
     text-align: center;
     margin-top: 40px;
     font-size: .9em;
@@ -84,7 +88,7 @@ footer a > strong {
 }
 
 
-<!--#button {
+#button {
   padding-top: 1.5%;
   padding-bottom: 1.5%;
   padding-left: 2.5%;
@@ -98,8 +102,8 @@ footer a > strong {
   border: 1px solid black;
   border-radius: 10px;
   transition: 0.5s;
-}-->
-<!--#button:hover {
+}
+#button:hover {
   background-color: #1ae00f;
   border: 1px dotted black;
   padding-top: 2%;
@@ -107,50 +111,36 @@ footer a > strong {
   padding-left: 3%;
   padding-right: 3%;
   transition: 0.5s;
-}-->
-
-
-
-
-@import url('https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed');
-
-.wrapper
-{ 
-  padding: 20px;     
-} 
-
-@keyframes shadow-pulse
-{
-  0% {
-    box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.2);
-  }
-  100% {
-    box-shadow: 0 0 0 35px rgba(0, 0, 0, 0);
-  }
 }
 
-@keyframes shadow-pulse-big
-{
-  0% {
-    box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.1);
-  }
-  100% {
-    box-shadow: 0 0 0 70px rgba(0, 0, 0, 0);
-  }
-}
 
-.example-1
-{
+
+#navbutton {
+  padding-top: 3.5%;
+  padding-bottom: 1.5%;
+  padding-left: 2.5%;
+  padding-right: 3.5%;
+  display: block;
   float: left;
-  margin: 40px;
-  width: 130px;
-  height: 130px;
-  font: 13px/130px 'Barlow Semi Condensed', sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  color: #fff;
-  text-align: center;
-  background: rgba(30, 144, 255, 0.6);
-  border-radius: 50%;
-  animation: shadow-pulse 1s infinite;
+  margin-right: 3%;
+  background-color: white;
+  color: #F3524F;
+  border: 1px solid black;
+  border-radius: 10px;
+  transition: 0.3s;
+  text-align:center;
+  font-size: 100%;
+}
+#navbutton:hover {
+  background-color: white;
+  color: #F3524F;
+  border: 1px dotted black;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  padding-left: 6%;
+  padding-right: 6%;
+  font-weight:bold;
+  transition: 0.5s;
+  font-size:150%;
+  text-align:center;
 }
