@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <title>Home Page</title>
 <style>
+@import url('title.css');
 html {
     background: url("red.jpg") no-repeat center center fixed;
     background-size: cover;
@@ -21,6 +22,12 @@ a:visited{
 		border: 10px;
 		color:#FFF;
 }
+.grow{ 
+	transition: all .2s ease-in-out; 
+}
+.grow:hover{ 
+	transform: scale(1.1); 
+}
 h1{
 		text-align: center;
 		color:#FFF;
@@ -35,20 +42,45 @@ h4{
 	text-align: center;
 	color: #FF0;
 }
+li{
+	list-style-type:none;
+	padding-left: 100px;
+	padding-top: 20px;
+	font-size: 18px;
+}
 </style>
 </head>
 <body>
-<h1>Niranjan's Webpage</h1>
+<h1><div> 
+<p>N</p> 
+<p>i</p>
+<p>r</p>
+<p>a</p>
+<p>n</p>
+<p>j</p>
+<p>a</p>
+<p>n</p>
+<p>'</p>
+<p>s</p>
+<p>W</p>
+<p>e</p>
+<p>b</p>
+<p>s</p>
+<p>i</p>
+<p>t</p>
+<p>e</p>
+</div></h1>
+
 <h2 class="vi">Projects or Exercise that I have completed or currently working on:</h2>
 <ul>
-  <li><a href="gdw/index.html">Getting Down with HTML and CSS Exercises</a></li>
-  <li><a href="project/index.html">Project: Mythical Creatures</a></li>
-  <li><a href="ciw/index.html">Advanced HTML 5 and CSS 3 Specialist</a></li> 
-  <li><a href="javascript/index.html">Javascript!!!</a></li>
-  <li><a href="battleship/index.html">Battleship</a></li>
-  <li><a href="templeOS/index.html">TempleOS</a></li>
+  <li class= "grow""><a href="gdw/index.html">Getting Down with HTML and CSS Exercises</a></li>
+  <li class="grow"><a href="project/index.html">Project: Mythical Creatures</a></li>
+  <li class= "grow"><a href="ciw/index.html">Advanced HTML 5 and CSS 3 Specialist</a></li> 
+  <li class = "grow"><a href="javascript/index.html">Javascript!!!</a></li>
+  <li class = "grow"><a href="battleship/index.html">Battleship</a></li>
+  <li class = "grow"><a href="templeOS/index.html">TempleOS</a></li>
   <!-- <li><a href="nhs/index.html">National Honor Society</a></li> -->
-  <li><a href="alumni/index.html">Alumni</a></li>
+  <li class = "grow"><a href="alumni/index.html">Alumni</a></li>
 </ul>
 <footer>
 <a href="http://validator.w3.org/check/referer">
