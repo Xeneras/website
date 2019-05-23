@@ -135,6 +135,8 @@ footer a > strong {
   transition: 0.3s;
   text-align:center;
   font-size: 100%;
+  text-decoration:none;
+  margin-top:3%;
 }
 #navbutton:hover {
   background-color: white;
@@ -148,10 +150,11 @@ footer a > strong {
   transition: 0.5s;
   font-size:125%;
   text-align:center;
+  margin-bottom:2%;
 }
 #navbutton:visited {
 
-  background-color: yellow;
+  background-color: lightblue;
   color: #F3524F;
   border: 1px solid black;
   padding-top: 4%;
