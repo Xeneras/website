@@ -21,6 +21,9 @@ header > h1 {
   text-shadow: 2px 2px darkgray;
   margin-right: 5%;
 }
+ul{
+  display:block;
+}
 header > p {
   text-align: right;
   color: white;
@@ -29,6 +32,7 @@ header > p {
   text-shadow: 1px 1px gray;
 }
 nav {
+  box-shadow:0.5px 0.5px 0.5px;
   font-family: 'Poppins', sans-serif;
   border: 2px solid #EDEEF1;
   background-color: #EDEEF1;
@@ -55,6 +59,7 @@ article {
   padding: 1%;
 }
 main {
+  box-shadow:0.5px 0.5px 0.5px;
   font-family: 'Poppins', sans-serif;
   border: 2px solid #DEDFE2;
   background-color: white;
@@ -134,13 +139,27 @@ footer a > strong {
 #navbutton:hover {
   background-color: white;
   color: #F3524F;
-  border: 1px dotted black;
+  border: 1px solid black;
   padding-top: 4%;
   padding-bottom: 4%;
   padding-left: 6%;
   padding-right: 6%;
   font-weight:bold;
   transition: 0.5s;
-  font-size:150%;
+  font-size:125%;
+  text-align:center;
+}
+#navbutton:visited {
+
+  background-color: yellow;
+  color: #F3524F;
+  border: 1px solid black;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  padding-left: 6%;
+  padding-right: 6%;
+  font-weight:bold;
+  transition: 0.5s;
+  font-size:125%;
   text-align:center;
 }
