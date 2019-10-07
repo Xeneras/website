@@ -1,0 +1,15 @@
+h1{
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+font-family: 'Lobster', cursive;
+
+
+}
+.title{
+text-align : center;
+color: #FFFF00;
+}
+body{
+    background-image:url("images/speaker.jpg");
+    @import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+    font-family: 'Lobster', cursive;
+}
